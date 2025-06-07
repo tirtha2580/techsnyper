@@ -1,0 +1,123 @@
+.contailer_service {
+    user-select: none;
+    border-top: 0.5px solid #d8d8d8;
+    border-bottom: 0.5px solid #d8d8d8;
+    color: #000;
+    font-family: Manrope, sans-serif;
+    padding: 20px;
+    transition: opacity 3s ease, transform 0.3s ease, max-height 0.3s ease;
+    cursor: pointer;
+    max-height: 150px;
+    overflow: hidden;
+}
+.contailer_service.show1{
+    max-height: 240px;
+}
+
+/* Default for larger screens */
+.service_grid1 {
+    width: 40%;
+}
+
+.service_grid2 {
+    width: 60%;
+}
+
+.description {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.dote {
+    border: 1px solid black;
+    width: 3px;
+    height: 3px;
+    background: #000;
+    border-radius: 100px;
+}
+
+.button_in {
+    padding: 10px 30px;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.button_in {
+    transition: opacity 0.3s ease, transform 0.3s ease, max-width 0.3s ease; 
+    opacity: 0; 
+    max-width: 0; 
+    overflow: hidden; 
+    transform: scale(0.1); 
+  }
+  
+  .button_in.show {
+    opacity: 1; 
+    max-width: 100%; 
+    transform: scale(1);
+  }
+
+/* Media query for tablets (portrait and landscape) */
+@media (max-width: 1000px) {
+    .service_grid1 {
+        width: 40%;
+    }
+    .service_grid2 {
+        width: 60%;
+    }
+
+    .description {
+        font-size: 10px;
+        gap: 2px;
+    }
+
+    .button_in {
+        padding: 4px 10px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 768px) {
+    .heading_services{
+        font-size: 30px;
+    }
+    .service_grid1, .service_grid2 {
+        width: 100%;
+    }
+
+    .description {
+        font-size: 12px;
+        gap: 4px;
+    }
+
+    .button_in {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+    .heading_services{
+        font-size: 25px;
+    }
+    .contailer_service {
+        padding: 10px;
+    }
+
+    .description {
+        font-size: 10px;
+        gap: 2px;
+    }
+
+    .button_in {
+        padding: 6px 15px;
+        font-size: 12px;
+    }
+}

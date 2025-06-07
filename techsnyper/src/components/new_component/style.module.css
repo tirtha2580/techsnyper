@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    font-family: 'Poiret One', cursive;
+    background-color: #F4F4F4;
+    padding: 0 16px; /* No quotes around the value */
+}
+
+/* You can also add specific styles for your component if needed */
+.grid-container {
+    padding: 16px; /* Example of additional styles */
+}

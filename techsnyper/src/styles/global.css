@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Targeting the dots in react-slick */
+.slick-dots li button::before {
+    font-size: 20px !important; 
+    color: grey  !important;    
+    width: 20px !important;     
+    height: 20px !important;    
+    line-height: 20px !important; 
+  }
+  
+  /* Active dot styling */
+  .slick-dots li.slick-active button::before {
+    color: white !important;    
+  }
+
+  
+  .slick-prev:before,
+  .slick-next:before {
+    content: none !important; /* Remove the default arrows */
+  }
+  

@@ -1,0 +1,33 @@
+.container1{
+    padding: 15px;
+    /* background-image: linear-gradient(150deg, #E70000, #f0f0f0, #f0f0f0, #f0f0f0, #f0f0f0); */
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    font-family: 'Jost', sans-serif;
+    color: black;
+}
+.heading_part1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Jost', sans-serif;
+    color: black;
+    
+}
+.heading_part1 img {
+    width: 50px;
+    height: 50px;
+}
+.heading_part2{
+    justify-content: start;
+    align-items: center;
+    color: black;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+}
+.heading_part2 p{
+    font-size: 15px;
+    font-family: 'Jost', sans-serif;
+    color: black;
+}

@@ -1,0 +1,224 @@
+.cards {
+    position: relative;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 90%;
+    opacity: 20px;
+    overflow: hidden;
+}
+
+.cards::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: -1; 
+}
+.buttons_two{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 100px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 1px;
+}
+.headings_h3{
+    font-family: 'Jost', sans-serif;
+}
+.para_p{
+    font-family: 'Jost', sans-serif;
+   
+}
+.cardImage{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 300px;
+}
+.two_box{
+    height: 330px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.lastCard{
+    font-size: 50px;
+    text-align: start;
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+}
+.arroe_client{
+    width: 17px; 
+    height: 17px;
+    padding-left: 0px;
+    transition: opacity 3s ease, transform 0.3s ease, padding-left 0.3s ease;
+}
+.arroe_client.show2{
+    padding-left: 15px;
+    transition: opacity 3s ease, transform 0.3s ease, padding-left 0.8s ease;
+}
+.lastcard_button{
+    font-family: 'Jost', sans-serif;
+    padding: 3px 30px;
+    font-size: 15px;
+    background-color: #fcfcfc;
+    color: #b81414;
+    border: 1px solid;
+    
+}
+.lastcard_button:hover{
+    background-color: #fdfdfd;
+}
+/* Media Queries */
+
+/* For small screens (phones, <600px) */
+@media (max-width: 300px) {
+    .lastCard{
+        font-size: 20px;
+    }
+    .cards {
+        height: auto;
+        padding: 15px 10px;
+    }
+        .cardImage {
+            width: 50px;
+            height: 200px;
+        }
+                .two_box {
+                    height: 230px;
+                    flex-direction: column;
+                }
+
+    .buttons_two {
+        padding: 1px 6px;
+        font-size: 10px;
+    }
+
+    .headings_h3 {
+        font-size: 10px;
+    }
+
+    .para_p {
+        font-size: 5px;
+    }
+}
+@media (min-width: 301px) and (max-width: 680px) {
+    .lastCard{
+        font-size: 35px;
+    }
+    .cards {
+        height: auto;
+        padding: 15px 10px;
+    }
+         .cardImage {
+             width: 100px;
+             height: 250px;
+         }
+    
+         .two_box {
+             height: 250px;
+             flex-direction: column;
+         }
+
+    .buttons_two {
+        padding: 2px 10px;
+        font-size: 8px;
+    }
+
+    .headings_h3 {
+        font-size: 10px;
+    }
+
+    .para_p {
+        font-size: 7px;
+    }
+}
+
+/* For medium screens (tablets, 600px - 900px) */
+@media (min-width: 680px) and (max-width: 1000px) {
+    
+    .cards {
+        height: auto;
+        padding: 18px 15px;
+    }
+
+          .cardImage {
+              width: 150px;
+              height: 300px;
+          }
+    
+          .two_box {
+              height: 300px;
+              flex-direction: column;
+          }
+
+    .buttons_two {
+        padding: 2px 12px;
+        font-size: 14px;
+    }
+
+    .headings_h3 {
+        font-size: 24px;
+    }
+
+    .para_p {
+        font-size: 14px;
+    }
+}
+@media (min-width: 1001px) and (max-width: 1300px) {
+    .cards {
+        height: auto;
+        padding: 18px 15px;
+    }
+
+          .cardImage {
+              /* width: 150px; */
+              height: 300px;
+          }
+    
+          .two_box {
+              height: 300px;
+              flex-direction: column;
+          }
+
+    .buttons_two {
+        padding: 2px 12px;
+        font-size: 14px;
+    }
+
+    .headings_h3 {
+        font-size: 24px;
+    }
+
+    .para_p {
+        font-size: 14px;
+    }
+}
+
+/* For large screens (desktops, >900px) */
+@media (min-width: 1300px) {
+    .cards {
+        height: 390px;
+        padding: 15px 15px;
+        justify-content: center;
+    }
+
+    .buttons_two {
+        padding: 2px 14px;
+        font-size: 10px;
+    }
+
+    .headings_h3 {
+        font-size: 16px;
+    }
+
+    .para_p {
+        font-size: 13px;
+    }
+}

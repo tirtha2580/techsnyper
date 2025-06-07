@@ -1,0 +1,114 @@
+/* Base styles */
+.footer_main_container{
+    background-image: linear-gradient(to right, #4062BB, #4062BB);
+    
+}
+.footer_container {
+    color: #000;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    overflow: hidden;
+    padding: 25px 60px;
+    /* margin-top: 30px; */
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9); 
+    font-family: 'Poiret One', cursive;
+}
+
+.menu_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: 'Jost', sans-serif;
+}
+
+.nav_button {
+    color: #000;
+    font-weight: bold;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0px 0px;
+    font-family: 'Jost', sans-serif;
+}
+
+.nav_button:hover {
+    background-color: #fff;
+    font-family: 'Jost', sans-serif;
+}
+
+.footer_nav_sub {
+    display: flex;
+    gap: 20px;
+    font-family: 'Jost', sans-serif;
+}
+
+.text_gmail {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    user-select: none;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    color: #000;
+}
+
+/* Media Queries */
+
+/* Mobile */
+@media (max-width: 600px) {
+    .footer_container {
+        padding: 15px 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu_footer {
+        gap: 10px;
+        align-items: center;
+    }
+
+    .footer_nav_sub {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .footer_container {
+        padding: 20px 40px;
+    }
+
+    .menu_footer {
+        gap: 12px;
+    }
+
+    .footer_nav_sub {
+        gap: 15px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+    .footer_container {
+        padding: 25px 60px;
+    }
+
+    .menu_footer {
+        gap: 15px;
+    }
+
+    .footer_nav_sub {
+        gap: 20px;
+    }
+}
