@@ -35,15 +35,17 @@ const index = () => {
         { id: 13, image: "/NR.jpg", text: "N.R. ISPAT AND POWER PVT.LTD" },
         { id: 14, image: "/sail1.jpg", text: "SAIL" },
         { id: 15, image: "/Crest.jpeg", text: "Crest steel and power Ltd" },
-        { id: 16, image: "/animesh.jpg", text: "Animesh ispat and power Ltd" },
+        { id: 16, image: "/animesh.jpg", text: "Animesh ispat and power Ltd" },   
          { id: 17, image: "/inland.jpg", text: "Inland Power Limited" },
+             { id: 18, image: "/shaurya.webp", text: "Shaurya Ispat Udyog Pvt. Ltd" },
+                 { id: 19, image: "/swadesh.jpg", text: "Swadesh Metallics Pvt. Ltd "},
       
         
       ];
   return (
     <div>
          <Header />
-      <MobileMenu />textDecoration:"underline"
+      <MobileMenu />
           <div
         style={{
           position: "relative", // To position the overlay properly
@@ -105,7 +107,7 @@ const index = () => {
                 textAlign: isMobile ? "justify" : "justify",
               }}
             >
-              <span style={{ marginLeft: "10px",textDecoration:"underline" }}>Our Clients</span> 
+              <span style={{ marginLeft: "10px"}}>Our Clients</span> 
             </Typography>
           </Grid>
 
