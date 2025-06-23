@@ -208,9 +208,9 @@ Available with HART, PROFIBUS AND FOUNDATION FIELDBUS communication.
 </Grid>
 <Grid item xs={12} md={5}>
   <img
-    src="/temperatreRTd.jpg"
-    alt="Placeholder"
-    style={{ width: "100%", height: "400px",borderRadius:'20px', }}
+    src="/temperature mng/temp_tx.jpg"
+    alt="Temperature Transmitters"
+    style={{ width: "60%", height: "400px",borderRadius:'20px', marginLeft:'150px' }}
   />
   <br />
   <br />
@@ -227,50 +227,42 @@ Available with HART, PROFIBUS AND FOUNDATION FIELDBUS communication.
 <Grid container spacing={4} style={{background:'#F1F1EE'}}>
 </Grid>
 
-<br /><br />
-<Grid container style={{padding:'20px'}}>
-          <Grid item xs={12} md={12} style={{display: 'flex', justifyContent: 'center', alignItems: 'center',}}>
-          <img 
-              src="thermo.avif"
-              alt="Placeholder" 
-              style={{  width:isMobile?"350px": 'auto',
-                height:isMobile? '250px':'400px',
-                borderRadius:'10px' }} 
-            />
-          </Grid>
-        
-          
-          <Grid container spacing={2} style={{marginTop:'20px'}}>
-            <Grid item xs={12}md={2}></Grid>
-          <Grid item xs={12} md={8} style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
-                <Typography style={{fontSize:'16px,',color:'#000',textAlign:'center',fontFamily: "Jost, sans-serif",}}>  A Temperature sensor converts a temperature reading into an electrical signal sent directly to a display or to a remote control location by a transmitter. A resistance thermometer operates on the principle that the electrical resistance in a metal wire changes based on the temperature.</Typography>
-          </Grid>
-          <Grid item xs={12}md={2}></Grid>
-          </Grid>
-         
-        </Grid>
-        <Grid container style={{padding:'20px',background:'#F1F1EE'}}>
-          <Grid item xs={12} md={12} style={{display: 'flex', justifyContent: 'center', alignItems: 'center',}}>
-          <img 
-              src="contactType.jpg"
-              alt="Placeholder" 
-              style={{  width:isMobile?"350px": 'auto',
-                height:isMobile? '250px':'400px',
-                
-                borderRadius:'10px' }} 
-            />
-          </Grid>
-        
-          
-          <Grid container spacing={2} style={{marginTop:'20px'}}>
-            <Grid item xs={12}md={2}></Grid>
-          <Grid item xs={12} md={8} style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
-                <Typography style={{fontSize:'16px,',color:'#000',textAlign:'center',fontFamily: "Jost, sans-serif",}}> The most common kind of contact thermometer uses electronic heat sensors to record body temperature. These thermometers can be used on the forehead, mouth, armpit or rectum. Most electronic thermometers have a digital display that shows you the temperature reading.</Typography>
-          </Grid>
-          <Grid item xs={12}md={2}></Grid>
-          </Grid>
-         
-        </Grid>
+<br />
+<br />
+
+ <Grid container spacing={4} style={{marginTop:'30px',background:'#fff'}}>
+
+    {/* First Grid - Blank */}
+    <Grid item xs={12} md={1}/>
+
+    {/* Second Grid - Image */}
+    <Grid item xs={12} md={5}>
+      <img
+        src="/temperature mng/temp.guaje.jpeg"
+        alt="Placeholder"
+        style={{ width: "50%", height: "450px",borderRadius:'20px', marginLeft:isMobile?'0px':'200px' }}
+      />
+      
+    </Grid>
+
+    {/* Third Grid - Text Heading and Texts */}
+    <Grid item xs={12}md={5}>
+      <Typography variant="h4" gutterBottom style={{fontFamily: "Jost, sans-serif",fontWeight:'600'}}>
+      Temperature Gauges 
+      </Typography>
+      <Typography variant="body1" style={{fontFamily: "Jost, sans-serif",}}>
+     A temperature gauge is a device that measures and displays the temperature of a substance, typically a fluid or gas. They are used in a wide range of applications, from industrial processes to everyday appliances. Temperature gauges can be either mechanical or digital and utilize various mechanisms to detect and indicate temperature changes. </Typography>
+      {/* <Typography variant="h5" style={{fontFamily: "Jost, sans-serif",}}>
+            Manufactured Compnay Names: 
+      </Typography>
+      <span style={{fontSize:'16px',fontFamily: "Jost, sans-serif",}}>Gauges bourdon, Thermal instrument, Baumer</span>
+      <br /> */}
+    </Grid>
+
+    {/* Fourth Grid - Blank */}
+    <Grid item xs={12} md={1}/>
+    </Grid>
+        <br />
         <br />
       <Footer/>
     </div>

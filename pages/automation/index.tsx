@@ -127,9 +127,9 @@ const index = () => {
              <Grid container>
       <Grid item xs={12} md={12} style={{display: 'flex', justifyContent: 'center', alignItems: 'center',}}>
       <img 
-          src="auto.webp" 
+          src="/automation/heading.jpeg" 
           alt="Placeholder" 
-          style={{  width:isMobile?"350px": 'auto',
+          style={{  width:isMobile?"350px": '680px',
             height:isMobile? '250px':'400px',
             borderRadius:'10px' }} 
         />
@@ -154,9 +154,9 @@ const index = () => {
           {/* Second Grid - Image */}
           <Grid item xs={12} md={5}>
             <img
-              src="dcs.webp"
+              src="/automation/dcs.jpeg"
               alt="Placeholder"
-              style={{ width: "100%", height: "350px",borderRadius:isMobile?'10px':'20px', }}
+              style={{ width: "60%", height: "450px",borderRadius:isMobile?'10px':'20px',marginLeft:isMobile?'0px':'90px' }}
             />
             <br />
           </Grid>
@@ -211,9 +211,9 @@ const index = () => {
     {/* Second Grid - Image */}
     <Grid item xs={12} md={5}>
       <img
-        src="/scad.png"
+        src="/automation/scada.jpeg"
         alt="Placeholder"
-        style={{ width: "100%", height: "350px",borderRadius:'20px', }}
+        style={{ width: "90%", height: "350px",borderRadius:'20px', }}
       />
       <br />
       <br />

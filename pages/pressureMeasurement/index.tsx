@@ -127,7 +127,7 @@ const index = () => {
              <Grid container>
       <Grid item xs={12} md={12} style={{display: 'flex', justifyContent: 'center', alignItems: 'center',}}>
       <img 
-          src="pressure.jpg" 
+          src="/Pressure mng/heading.jpeg" 
           alt="Placeholder" 
           style={{  width:isMobile?"350px": 'auto',
             height:isMobile? '250px':'400px',
@@ -147,16 +147,16 @@ const index = () => {
     </Grid>
 
              <Grid container spacing={4} style={{marginTop:'30px',background:'#F1F1EE'}}>
-
+              
           {/* First Grid - Blank */}
           <Grid item xs={12} md={1}/>
 
           {/* Second Grid - Image */}
           <Grid item xs={12} md={5}>
             <img
-              src="https://5.imimg.com/data5/KN/LF/MY-3648421/industrial-pressure-transmitter-500x500.jpg"
-              alt="Placeholder"
-              style={{ width: "100%", height: "350px",borderRadius:'20px', }}
+              src="/Pressure mng/transmeter.jpg"
+              alt="pressuretransmitter"
+               style={{ width: "60%", height: "450px",borderRadius:'20px', marginLeft:'150px' }}
             />
             <br />
           </Grid>
@@ -192,9 +192,9 @@ const index = () => {
     </Grid>
     <Grid item xs={12} md={5}>
       <img
-        src="/differential.webp"
-        alt="Placeholder"
-        style={{ width: "100%", height: "400px",borderRadius:'20px', }}
+        src="/Pressure mng/dp.jpg"
+        alt="Differential pressure transmitters "
+         style={{ width: "60%", height: "450px",borderRadius:'20px', marginLeft:'150px' }}
       />
       <br />
     </Grid>
@@ -213,9 +213,9 @@ const index = () => {
     {/* Second Grid - Image */}
     <Grid item xs={12} md={5}>
       <img
-        src="/pgauges.webp"
+        src="/Pressure mng/guaje.jpg"
         alt="Placeholder"
-        style={{ width: "100%", height: "350px",borderRadius:'20px', }}
+        style={{ width: "60%", height: "450px",borderRadius:'20px', marginLeft:'150px' }}
       />
       <br />
       <br />
@@ -237,6 +237,35 @@ const index = () => {
 
     {/* Fourth Grid - Blank */}
     <Grid item xs={12} md={1}/>
+    </Grid>
+
+       <Grid container spacing={4} style={{marginTop:'0px',}}>
+
+    {/* First Grid - Blank */}
+    <Grid item xs={1} />
+
+    <Grid item xs={12} md={5} style={{marginTop:'50px'}}>
+      <Typography  gutterBottom style={{fontFamily: "Jost,sans-serif",fontSize:'24px',fontWeight:'600'}}>
+       Pressure Switch
+
+      </Typography>
+      <Typography style={{fontFamily: "Jost, sans-serif",fontSize:'16px'}}>
+      A pressure switch is an electrical device that opens or closes a circuit based on a preset fluid pressure level. It acts as a control mechanism, automatically activating or deactivating electrical circuits when a specific pressure point is reached. These switches are crucial for maintaining system safety and efficiency in various applications, from industrial processes to residential systems.   </Typography>
+    </Grid>
+    <Grid item xs={12} md={5}>
+      <img
+        src="/Pressure mng/switch1.jpg"
+        alt=" pressure switch "
+         style={{ width: "60%", height: "450px",borderRadius:'20px', marginLeft:'150px' }}
+      />
+      <br />
+    </Grid>
+
+    {/* Third Grid - Text Heading and Texts */}
+
+
+    {/* Fourth Grid - Blank */}
+    <Grid item xs={12} md={5}/>
     </Grid>
 
 
